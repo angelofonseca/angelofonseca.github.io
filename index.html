@@ -1,43 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Ângelo Fonseca</title>
+    <title>Portfólio</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="nav-container">
-                <h2>Ângelo Fonseca</h2>
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/angelo-fonseca-325a6a2a5/" target="_blank"
-                            rel="noopener noreferrer"><img src="/linkedin-logo.png" alt="LinkedIn"></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/angelofonseca" target="_blank" rel="noopener noreferrer"><img src="/github-logo.png" alt="GitHub"></a>
-                    </li>
+    <header id="cabecalho">
+        <h1 id="titulo">Portfólio</h1>
+    </header>
+
+    <main class="main-content">
+        <div class="img-container">
+            <img src="/minha-foto.jpeg" alt="minha_foto" id="minha_foto">
+            <aside>
+                <p>
+                    Me chamo Ângelo Fonseca, tenho 26 anos e estou em busca de novas oportunidades!
+                    <br>
+                    <br>
+                    Estudante da Trybe em busca da carreira como Dev.
+                </p>
+            </aside>
+        </div>
+        <section class="lists">
+            <div class="list">
+                <h2>Lições aprendidas</h2>
+                <ol id="licoes_aprendidas">
+                    <h3>Hard Skills</h3>
+                    <li>Git & Github</li>
+                    <li>Unix & Shell</li>
+                    <li>HTML</li>
+                    <li>HTML Semântico</li>
+                    <li>CSS</li>
+                    <h3>Soft Skills</h3>
+                    <li>Comunicação</li>
+                    <li>Autoliderança</li>
+                    <li>Proatividade</li>
+                    <li>Empatia</li>
+                    <li>Flexibilidade</li>
+                </ol>
+            </div>
+            <div class="list">
+                <h2>Lições a aprender</h2>
+                <ul id="licoes_a_aprender">
+                    <h3>Hard Skills</h3>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
+                    <li>C</li>
+                    <h3>Soft Skills</h3>
+                    <li>Trabalho em equipe</li>
+                    <li>Criatividade</li>
+                    <li>Pensamento Crítico</li>
+                    <li>Tomada de decisão</li>
+                    <li>Inteligência emocional</li>
                 </ul>
             </div>
-        </nav>
-    </header>
-    <section>
-        <img src="/profile.jpeg" alt="foto de perfil" width="200px" height="200px" style="border-radius: 50%;">
-        <br>
-        <a href="#hab">Minhas Habilidades</a>
-        <p>Cursando Ciências Econômicas na UFPel | Estudante da Trybe!</p>
-        <p style="font-weight: bold;" id="hab">Minhas habilidades</p>
-        <ul>
-            <li>Organização</li>
-            <li>Comprometimento</li>
-            <li>Flexibilidade</li>
-        </ul>
-    </section>
-
+        </section>
+        <article class="about-me">
+            <p>
+                Atualmente estudo Ciências Econômicas na Universidade Federal de Pelotas (UFPel).
+                Em 2022/2023 fiz o curso de Sistemas para Internet no Senac de Pelotas e me interessei muito na área
+                de programação, porém acabei trancando o curso por motivos pessoais.
+                Em 2024 decidi voltar a estudar programação na <a href="https://www.betrybe.com/" target="_blank"
+                    rel="noopener noreferrer" class="trybe">Trybe</a>.
+            </p>
+        </article>
+    </main>
 </body>
+<footer id="rodape">
+    <div class="info">
+        <h4>Redes Sociais</h4>
+    </div>
+    <div class="social">
+        <a href="https://github.com/angelofonseca" target="_blank" rel="noopener noreferrer"><img src="github.svg"
+                alt="github"></a>
+        <a href="https://www.linkedin.com/in/angelo-fonseca-325a6a2a5/" target="_blank" rel="noopener noreferrer"><img
+                src="linkedin.svg" alt="linkedin"></a>
+    </div>
+</footer>
 
 </html>
