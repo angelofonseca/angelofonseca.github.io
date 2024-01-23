@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: grey;
+    padding: 20px;
+}
+
+.nav-container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+.nav-container img {
+    width: 50px;
+}
+
+.nav-container ul {
+    list-style-type: none;
+}
+
+.nav-container li {
+    display: inline-block;
+}
